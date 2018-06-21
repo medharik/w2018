@@ -1,0 +1,23 @@
+question 1 :
+ce code permet , selon les paramètres d'url : "controller" et "action" , d'instancier le  controleur "controller"  et d'appeler sa methode "action" 
+
+il sert de routeur automatisé dans une application basé sur MVC
+
+question 2  :
+
+Il s'agit d'une technologie permettant à des applications de dialoguer à distance via Internet, et ceci indépendamment des plates-formes et des langages sur lesquelles elles reposent.
+ 
+ les 3 types d'architectures principales :  SOAP , REST et  WSDL
+
+question 3 : 
+
+
+question 4 : 
+
+RewriteEngine on   pour lancer le module de réécriture d'URL
+RewriteRule indique comment réécrire l'URL basé sur la régle de subsitution
+
+par exemple users/add remplace index.php?controller=users&item=add
+
+ce code se trouve dans les fichiers .htaccess
+

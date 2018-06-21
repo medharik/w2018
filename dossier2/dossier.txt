@@ -1,0 +1,28 @@
+question 2 : 
+cette base de données permet de gérer les participations et les commentaires des utiliseurs dans plusieurs acitivtés qui se situent dans  plusieurs régions 
+
+question 3 : 
+create table activite(
+id_activite int primary key auto_increment,
+libelle_activite varchar(255),
+horaire  time,
+date_activite date,
+adresse_activite varchar(255),
+handicapes_activite boolean,
+latitude decimal(10,5),
+longitude decimal(8,2) 
+)
+
+question 4 : 
+ajout de  la contrainte clé étrangère dans la table avis_activite qui référencie la table activite
+avec l'option on delete cascade qui va entrainer la suppression de tous les avis_activite quand l'activité correspondante est supprimé
+
+question 5 
+
+on pourrait résoudre ce problème en ajoutant   une clé primaire (auto_increment) dans les tables "participe" et 
+"donne" 
+et en supprimant la contrainte clé primaire du couple (#id_activite,#id_user) dans ces deux tables
+
+cad : participe(id_participe, #id_activite,#id_user) et donne(id_donne,#id_activite,#id_user)
+
+

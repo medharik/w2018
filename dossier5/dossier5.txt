@@ -1,0 +1,25 @@
+question 1 : 
+ natives 
+ hybrides
+ web mobile
+question 2 :
+site mobile-friendly :
+ qui s'adapte aux principaux terminaux web (smartphone, tablette, ordinateur,...);
+
+ question 3 : 
+ viewport :  Le Viewport désigne  la surface de la fenêtre du navigateur
+ question 4 :
+
+
+ question 5 : 
+schema cycle de vie d'une application androide
+
+
+ activité : 
+Une activité représente l'interface homme machine d'une application androide
+
+
+question 5 :
+un service fonctionne en arrière plan et sans ihm  par une contre une activité est une ihm qui fonctionne en avant plan
+
+(ihm( interface homme machine))

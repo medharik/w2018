@@ -1,0 +1,22 @@
+question 1 :
+ce code permet de déplacer  (faire un drag and drop) une image  du div #div1 vers #div2 
+quesiton 2 :
+
+ce code permet d'afficher une carte de google avec , au centre , deux marqueurs 
+
+question 3 :
+
+
+quesiton 4 :
+la technologue utilisée : AJAX (asynchronous JavaScript and XML)
+s, il s’agit de permettre
+l’échange d’informations entre le navigateur web (sur le poste de
+l’utilisateur) et le serveur web (chez l’hébergeur) sans recharger
+l’ensemble de la page web utilisée. Ces échanges s’effectuent de façon
+asynchrone (le mode synchrone est aussi possible) à l’aide de fonctions
+développées en langage Javascript
+
+l'intérêt du code utilisé : 
+ce code permet d'envoyer les données du formulaire (en methode post) du coté client vers le serveur ou se trouve la page recup.php en executant , en cas de succès une fonction callback qui récupère les données renvoyés du serveur , le textstatus et l'objet jqXHR 
+
+l'objet sous-jacents utilisé est :  XmlHttprequest
